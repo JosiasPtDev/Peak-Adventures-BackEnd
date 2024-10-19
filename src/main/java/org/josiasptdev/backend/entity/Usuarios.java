@@ -18,5 +18,6 @@ public class Usuarios {
     private String correo;
     private String password;
     private String dni;
+    private String sexo;
 
 }

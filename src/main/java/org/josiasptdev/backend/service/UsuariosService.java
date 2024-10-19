@@ -47,6 +47,7 @@ public class UsuariosService {
             usuarioExistente.setCorreo(usuarioActualizado.getCorreo());
             usuarioExistente.setPassword(usuarioActualizado.getPassword());
             usuarioExistente.setDni(usuarioActualizado.getDni());
+            usuarioExistente.setSexo(usuarioActualizado.getSexo());
 
             usuariosRepository.save(usuarioExistente);
             return ResponseEntity.ok(usuarioExistente);
